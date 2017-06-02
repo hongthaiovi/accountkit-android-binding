@@ -3,13 +3,13 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.AccountKit.Droid</id>
-        <version>4.21.1</version>
+        <version>4.21.1.1</version>
         <description>Xamarin Binding Library - Accountkit Android SDK</description>
         <authors>Vu Duc Tuyen</authors>
         <owners>NAXAM CO.,LTD</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <title>Naxam - Accountkit Android SDK</title>
-        <releaseNotes>Accountkit Android SDK v4.21.1</releaseNotes>
+        <releaseNotes>Accountkit Android SDK v4.21.1/Fixing issue on generating internal static interface (CountryCodeSpinner.OnSpinnerEventsListener)</releaseNotes>
         <summary>Xamarin Binding Library - Accountkit Android SDK</summary>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/NAXAM/xam-accountkit-android</projectUrl>
