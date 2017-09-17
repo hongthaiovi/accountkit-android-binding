@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.AccountKit.Droid", "Naxam.AccountKit.Droid\Naxam.AccountKit.Droid.csproj", "{6E2494A3-2BC0-42A8-8433-4599C87169F2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{574EF429-41BE-46CD-BFC2-1BDAD14E031F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountKitQs", "demo\AccountKitQs\AccountKitQs.csproj", "{5C582DDC-E039-4CC2-B387-C359C76B520A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +17,12 @@ Global
 		{6E2494A3-2BC0-42A8-8433-4599C87169F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E2494A3-2BC0-42A8-8433-4599C87169F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E2494A3-2BC0-42A8-8433-4599C87169F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C582DDC-E039-4CC2-B387-C359C76B520A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C582DDC-E039-4CC2-B387-C359C76B520A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C582DDC-E039-4CC2-B387-C359C76B520A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C582DDC-E039-4CC2-B387-C359C76B520A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C582DDC-E039-4CC2-B387-C359C76B520A} = {574EF429-41BE-46CD-BFC2-1BDAD14E031F}
 	EndGlobalSection
 EndGlobal
