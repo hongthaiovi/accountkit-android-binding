@@ -3,26 +3,26 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.AccountKit.Droid</id>
-        <version>4.26.0-pre</version>
+        <version>4.28.0</version>
         <authors>NAXAM CO.,LTD</authors>
         <owners>NAXAM CO.,LTD</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <title>Naxam - Accountkit for Android</title>
         <summary>Xamarin.Android Binding Library - Accountkit</summary>
         <description>Xamarin.Android Binding Library - Accountkit</description>
-        <releaseNotes>Accountkit for Android v4.26.0</releaseNotes>
+        <releaseNotes>Accountkit for Android v4.28.0</releaseNotes>
         <iconUrl>https://avatars1.githubusercontent.com/u/25535951</iconUrl>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/NAXAM/xam-accountkit-android</projectUrl>
         <copyright>Copyright (c) 2017 NAXAM</copyright>
         <tags>Xamarin.Android, accountkit</tags>
         <dependencies>
-            <dependency id="Xamarin.Android.Support.Design" version="25.4.0.2" />
-            <dependency id="Xamarin.Android.Support.v4" version="25.4.0.2" />
-            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="25.4.0.2" />
+            <dependency id="Xamarin.Android.Support.Design" version="26.1.0.1" />
+            <dependency id="Xamarin.Android.Support.v4" version="26.1.0.1" />
+            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="26.1.0.1" />
             <dependency id="Naxma.LibPhoneNumber.Droid" version="8.5.2" />
-            <dependency id="Xamarin.GooglePlayServices.Auth" version="57.1104.0-beta1" />
-            <dependency id="Xamarin.GooglePlayServices.Auth.Api.Phone" version="57.1104.0-beta1" />
+            <dependency id="Xamarin.GooglePlayServices.Auth" version="60.1142.0-rc1" />
+            <dependency id="Xamarin.GooglePlayServices.Auth.Api.Phone" version="60.1142.0-rc1" />
         </dependencies>
     </metadata>
     <!-- Optional 'files' node -->
