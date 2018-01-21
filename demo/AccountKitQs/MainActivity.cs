@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using Com.Facebook.Accountkit;
 
 namespace AccountKitQs
 {
@@ -21,6 +22,14 @@ namespace AccountKitQs
             Button button = FindViewById<Button>(Resource.Id.myButton);
 
             button.Click += delegate { button.Text = $"{count++} clicks!"; };
+        }
+
+        protected override void OnActivityResult(int requestCode, Result resultCode, Android.Content.Intent data)
+        {
+            base.OnActivityResult(requestCode, resultCode, data);
+
+            //var jobj = data.GetParcelableExtra(AccountKitLoginResult.ResultKey);
+            //IAccountKitLoginResult result = Android.Runtime.Extensions.JavaCast<IAccountKitLoginResult>(jobj);
         }
     }
 }
