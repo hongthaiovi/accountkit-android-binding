@@ -1,28 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-	<attr
-		path="/api/package[@name='com.facebook.accountkit.ui']/interface[@name='ContentController']"
-		name="visibility">public</attr>
-	<attr
-		path="/api/package[@name='com.facebook.accountkit.ui']/interface[@name='UIManagerStub']"
-		name="visibility">public</attr>
-	<attr
-		path="/api/package[@name='com.facebook.accountkit.ui']/class[@name='ContentFragment']"
-		name="visibility">public</attr>
-	<attr
-		path="/api/package[@name='com.facebook.accountkit.ui']/class[@name='LoginFragment']"
-		name="visibility">public</attr>
-	<attr
-		path="/api/package[@name='com.facebook.accountkit.ui']/class[@name='TitleFragmentFactory']"
-		name="visibility">public</attr>
-	<attr
-		path="/api/package[@name='com.facebook.accountkit.ui']/class[@name='ViewStateFragment']"
-		name="visibility">public</attr>
-	<attr
-		path="/api/package[@name='com.facebook.accountkit.ui']/class[@name='ViewStateFragment']/field[@name='TAG']"
-		name="managedName">TAG</attr>
-	<remove-node
-		path="/api/package[@name='com.facebook.accountkit.internal']" />
-	<remove-node
-		path="/api/package[@name='com.facebook.accountkit.ui']/interface[@name='CountryCodeSpinner.OnSpinnerEventsListener']" />
+    <attr
+        path="/api/package[@name='com.facebook.accountkit.ui']/interface[@name='ContentController']"
+        name="visibility">public</attr>
+    <attr
+        path="/api/package[@name='com.facebook.accountkit.ui']/interface[@name='UIManagerStub']"
+        name="visibility">public</attr>
+    <attr
+        path="/api/package[@name='com.facebook.accountkit.ui']/class[@name='ContentFragment']"
+        name="visibility">public</attr>
+    <attr
+        path="/api/package[@name='com.facebook.accountkit.ui']/class[@name='LoginFragment']"
+        name="visibility">public</attr>
+    <attr
+        path="/api/package[@name='com.facebook.accountkit.ui']/class[@name='TitleFragmentFactory']"
+        name="visibility">public</attr>
+    <attr
+        path="/api/package[@name='com.facebook.accountkit.ui']/class[@name='ViewStateFragment']"
+        name="visibility">public</attr>
+    <attr
+        path="/api/package[@name='com.facebook.accountkit.ui']/class[@name='ViewStateFragment']/field[@name='TAG']"
+        name="managedName">TAG</attr>
+    <remove-node
+        path="/api/package[@name='com.facebook.accountkit.internal']" />
+    <!--<remove-node
+		path="/api/package[@name='com.facebook.accountkit.ui']/interface[@name='CountryCodeSpinner.OnSpinnerEventsListener']" />-->
+    <attr
+        path="/api/package[@name='com.facebook.accountkit.ui']/class[@name='AccountKitActivityBase']"
+        name="visibility">public</attr>
 </metadata>
