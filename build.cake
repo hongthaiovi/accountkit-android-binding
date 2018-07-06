@@ -99,11 +99,11 @@ Task("Pack")
 //////////////////////////////////////////////////////////////////////
 
 Task("Default")
-    // .IsDependentOn("Downloads")
-    // .IsDependentOn("UpdateVersion")
-    // .IsDependentOn("Clean")
-    // .IsDependentOn("Restore-NuGet-Packages")
-    // .IsDependentOn("Build")
+    .IsDependentOn("Downloads")
+    .IsDependentOn("UpdateVersion")
+    .IsDependentOn("Clean")
+    .IsDependentOn("Restore-NuGet-Packages")
+    .IsDependentOn("Build")
     .IsDependentOn("Pack");
 
 //////////////////////////////////////////////////////////////////////

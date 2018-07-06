@@ -1,4 +1,53 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-	<Button android:id="@+id/myButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/hello" />
-</LinearLayout>
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+    <Button
+        android:layout_centerInParent="true"
+        android:id="@+id/btnLoginWithPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loging with SMS" />
+    <Button
+        android:layout_below="@id/btnLoginWithPhoneNumber"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnLoginWithEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loging with Email" />
+    <TextView
+        android:id="@+id/txtSubheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnLoginWithPhoneNumber"
+        android:layout_marginBottom="56dp"
+        android:layout_centerHorizontal="true"
+        android:text="brought to you by Naxam"
+        android:textAlignment="gravity"
+        android:gravity="end"
+        android:textColor="#D8D8D8"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/txtHeader"
+        android:text="AccountKit QuickStart"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="#4080ff"
+        android:textSize="32sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/txtSubheader"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textSize="24sp"
+        android:textColor="#4080ff" />
+</RelativeLayout>
