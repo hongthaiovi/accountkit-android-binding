@@ -3727,11 +3727,11 @@ namespace AccountKitQs
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f0c0076
-			public const int ACCOUNT_KIT_CLIENT_TOKEN = 2131492982;
-			
 			// aapt resource value: 0x7f0c0075
-			public const int FACEBOOK_APP_ID = 2131492981;
+			public const int ACCOUNT_KIT_CLIENT_TOKEN = 2131492981;
+			
+			// aapt resource value: 0x7f0c0074
+			public const int FACEBOOK_APP_ID = 2131492980;
 			
 			// aapt resource value: 0x7f0c0019
 			public const int abc_action_bar_home_description = 2131492889;
@@ -3820,11 +3820,11 @@ namespace AccountKitQs
 			// aapt resource value: 0x7f0c0029
 			public const int abc_toolbar_collapse_description = 2131492905;
 			
-			// aapt resource value: 0x7f0c0077
-			public const int ak_login_protocol_scheme = 2131492983;
+			// aapt resource value: 0x7f0c0076
+			public const int ak_login_protocol_scheme = 2131492982;
 			
-			// aapt resource value: 0x7f0c0074
-			public const int app_name = 2131492980;
+			// aapt resource value: 0x7f0c0078
+			public const int app_name = 2131492984;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int appbar_scrolling_view_behavior = 2131492864;
@@ -3838,8 +3838,8 @@ namespace AccountKitQs
 			// aapt resource value: 0x7f0c0038
 			public const int com_accountkit_account_verified = 2131492920;
 			
-			// aapt resource value: 0x7f0c0071
-			public const int com_accountkit_button_begin = 2131492977;
+			// aapt resource value: 0x7f0c0072
+			public const int com_accountkit_button_begin = 2131492978;
 			
 			// aapt resource value: 0x7f0c0039
 			public const int com_accountkit_button_cancel = 2131492921;
@@ -3859,8 +3859,8 @@ namespace AccountKitQs
 			// aapt resource value: 0x7f0c003e
 			public const int com_accountkit_button_next = 2131492926;
 			
-			// aapt resource value: 0x7f0c0072
-			public const int com_accountkit_button_ok = 2131492978;
+			// aapt resource value: 0x7f0c0073
+			public const int com_accountkit_button_ok = 2131492979;
 			
 			// aapt resource value: 0x7f0c003f
 			public const int com_accountkit_button_resend_code_in = 2131492927;
@@ -4007,10 +4007,13 @@ namespace AccountKitQs
 			public const int com_accountkit_verify_confirmation_code_title = 2131492974;
 			
 			// aapt resource value: 0x7f0c006f
-			public const int com_accountkit_verify_title = 2131492975;
+			public const int com_accountkit_verify_confirmation_code_title_colon = 2131492975;
 			
 			// aapt resource value: 0x7f0c0070
-			public const int com_accountkit_voice_call_code_entry_title = 2131492976;
+			public const int com_accountkit_verify_title = 2131492976;
+			
+			// aapt resource value: 0x7f0c0071
+			public const int com_accountkit_voice_call_code_entry_title = 2131492977;
 			
 			// aapt resource value: 0x7f0c0009
 			public const int common_google_play_services_enable_button = 2131492873;
@@ -4063,8 +4066,8 @@ namespace AccountKitQs
 			// aapt resource value: 0x7f0c0018
 			public const int common_signin_button_text_long = 2131492888;
 			
-			// aapt resource value: 0x7f0c0073
-			public const int hello = 2131492979;
+			// aapt resource value: 0x7f0c0077
+			public const int hello = 2131492983;
 			
 			// aapt resource value: 0x7f0c0003
 			public const int password_toggle_content_description = 2131492867;
