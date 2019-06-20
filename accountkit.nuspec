@@ -3,7 +3,7 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.AccountKit.Droid</id>
-        <version>4.28.0.1</version>
+        <version>5.0.0.0</version>
         <authors>NAXAM CO.,LTD</authors>
         <owners>NAXAM CO.,LTD</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
