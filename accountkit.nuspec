@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <!-- Required elements-->
-        <id>Naxam.AccountKit.Droid</id>
+        <id>Naxam.AccountKit.Droid2</id>
         <version>5.0.0.0</version>
-        <authors>NAXAM CO.,LTD</authors>
+        <authors>hongthaiovi</authors>
         <owners>NAXAM CO.,LTD</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <title>Naxam - Accountkit for Android</title>
@@ -12,7 +11,7 @@
         <description>Xamarin.Android Binding Library - Accountkit</description>
         <iconUrl>https://avatars1.githubusercontent.com/u/25535951</iconUrl>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
-        <projectUrl>https://github.com/NAXAM/xam-accountkit-android</projectUrl>
+        <projectUrl>https://github.com/hongthaiovi/accountkit-android-binding</projectUrl>
         <copyright>Copyright (c) 2017 NAXAM</copyright>
         <tags>Xamarin.Android, accountkit</tags>
         <dependencies>
@@ -24,7 +23,6 @@
             <dependency id="Xamarin.GooglePlayServices.Auth.Api.Phone" version="60.1142.1" />
         </dependencies>
     </metadata>
-    <!-- Optional 'files' node -->
     <files>
         <file src="Naxam.AccountKit.Droid/bin/Release/Naxam.AccountKit.Droid.dll" target="lib/MonoAndroid10/Naxam.AccountKit.Droid.dll" />
     </files>
